@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "hackerenv\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
+}
