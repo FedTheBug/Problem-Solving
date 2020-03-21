@@ -8,7 +8,7 @@ for _ in range(K):
 comb = list(product(*lst))
 
 
-def fun(nums):
+def funset(nums):
     return sum(x * x for x in nums) % M
 
 
