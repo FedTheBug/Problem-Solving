@@ -1,0 +1,6 @@
+s1 = int(input())
+set1 = set(map(int, input().split()))
+s2 = int(input())
+set2 = set(map(int, input().split()))
+new_s = set1.intersection(set2)
+print(*new_s)
