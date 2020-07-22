@@ -2,8 +2,9 @@ if __name__ == "__main__":
     students = list()
     for _ in range(int(input())):
         students.append([input(), float(input())])
+    print(students)
     students.sort(key=lambda x: (x[1], x[0]))
-    # print(students)
+    print(students)
     name = [i[0] for i in students]
     score = [i[1] for i in students]
     lowest_score = min(score)
