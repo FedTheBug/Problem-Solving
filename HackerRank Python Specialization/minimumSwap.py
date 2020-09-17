@@ -14,7 +14,7 @@ def minimumSwaps(arr):
             temp = arr[i]
             arr[i] = arr[arr[i] - 1]
             arr[arr[i] - 1] = temp
-            swapc += 1
+            swapc += swapc + 1
 
     return swapc
 
